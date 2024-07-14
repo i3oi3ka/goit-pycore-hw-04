@@ -20,8 +20,8 @@ def get_cats_info(path) -> list[dict[str, str]]:
     Exceptions:
     - FileNotFoundError: Raised if the file is not found at the specified path. In this case,
       an error message is printed.
-    - ValueError: Raised if a line in the file does not contain exactly three values (ID, name, age).
-      In this case, an error message is printed and the line is skipped.
+    - ValueError: Raised if a line in the file does not contain exactly three values
+      (ID, name, age). In this case, an error message is printed and the line is skipped.
     """
     cats = []
     try:
